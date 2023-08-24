@@ -1,0 +1,66 @@
+CREATE TABLE Pedidos
+(
+	id_pedido INT PRIMARY KEY,
+	nome_cliente VARCHAR(200),
+	data_hora_pedido DATETIME,
+	valor_total DECIMAL(10, 2)
+);
+
+CREATE TABLE Produtos
+(
+	id_produto INT PRIMARY KEY,
+	nome_produto VARCHAR(200),
+	valor_produto DECIMAL(10, 2) 
+);
+
+CREATE TABLE Pedidos_Produtos 
+(
+	id_pedido_produto INT PRIMARY KEY,
+    id_pedido INT,
+    id_produto INT,
+    quantidade INT,
+    FOREIGN KEY (id_pedido) REFERENCES Pedidos(id_pedido),
+    FOREIGN KEY (id_produto) REFERENCES Produtos(id_produto)
+);
+	
+
+INSERT INTO Produtos (id_produto, nome_produto, valor_produto)
+VALUES (1, 'Mouse', 80.00);
+
+INSERT INTO Produtos (id_produto, nome_produto, valor_produto)
+VALUES (2, 'Teclado', 90.00);
+
+UPDATE Produtos
+SET valor_produto = 40.00
+WHERE id_produto = 1;
+
+DELETE FROM Produtos
+WHERE id_produto = 1;
+
+INSERT INTO Pedidos (id_pedido, nome_cliente, data_hora_pedido, valor_total)
+VALUES (1, 'Maria', '2023-08-22T11:29:13', 95.00);
+
+INSERT INTO Pedidos (id_pedido, nome_cliente, data_hora_pedido, valor_total)
+VALUES (2, 'Ana', '2023-08-22T15:29:00', 90.00);
+
+UPDATE Pedidos
+SET data_hora_pedido = '2023-08-24T11:45:00'
+WHERE id_pedido = 1;
+
+DELETE FROM Pedidos
+WHERE id_pedido = 1;
+
+INSERT INTO Pedidos_Produtos (id_pedido_produto, id_pedido, id_produto, quantidade)
+VALUES (2, 2, 2, 5);
+
+SELECT *
+FROM Pedidos
+ORDER BY data_hora_pedido DESC;
+
+SELECT *
+FROM Produtos
+WHERE valor_produto = 
+(
+    SELECT MIN(valor_produto)
+    FROM Produtos
+);
