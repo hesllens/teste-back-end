@@ -1,0 +1,14 @@
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\bin\Debug\net7.0\ProjetoBlackFriday.exe
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\bin\Debug\net7.0\ProjetoBlackFriday.deps.json
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\bin\Debug\net7.0\ProjetoBlackFriday.runtimeconfig.json
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\bin\Debug\net7.0\ProjetoBlackFriday.dll
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\bin\Debug\net7.0\ProjetoBlackFriday.pdb
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.AssemblyInfoInputs.cache
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.AssemblyInfo.cs
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.csproj.CoreCompileInputs.cache
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.dll
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\refint\ProjetoBlackFriday.dll
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.pdb
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ProjetoBlackFriday.genruntimeconfig.cache
+C:\Users\Michel\source\repos\ProjetoBlackFriday\ProjetoBlackFriday\obj\Debug\net7.0\ref\ProjetoBlackFriday.dll
